@@ -1,0 +1,19 @@
+---
+---
+
+@import 'main';
+
+// your overrides below
+html:not([data-mode="dark"]) {
+  --link-color: #fb1d1d !important;
+  --toc-highlight: #fb1d1d !important;
+  --sidebar-active-color: #fb1d1d !important;
+  --nav-cursor-color: #fb1d1d !important;
+}
+
+html[data-mode="dark"] {
+  --link-color: #fb1d1d !important;
+  --toc-highlight: #fb1d1d !important;
+  --sidebar-active-color: #fb1d1d !important;
+  --nav-cursor-color: #fb1d1d !important;
+}
